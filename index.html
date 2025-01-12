@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/logo_transparent.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alex+Brush&family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">   
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Podkova:wght@400..800&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Zeyada&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<title>Save body and SPA</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo"><img src="./images/logo_transparent.png" alt="AURA Spa Salon Logo"></div>
+        <button class="burger-menu" aria-label="Открыть меню">
+          <span></span>
+          <span></span>
+          <span></span>
+      </button>
+        <nav class="navbar">
+            <a href="./about/index.html">About the salon</a>
+            <a href="./servicer/index.html">Services</a>
+            <a href="#certificates">Certifications</a>
+            <a href="#price">Price</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contacts</a>
+            
+            <div class="social-links">
+              <a href="https://www.facebook.com/Vkhomutets" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+              <a href="#" class="google"><i class="fa fa-google"></i></a>
+              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+              <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
+              <a  href="https://www.instagram.com/save_body_chicago/"><i class="fa fa-instagram"></i></a>
+            </div>
+            <a href="https://www.massagebook.com/business/24086155/select-product/services/?src=massagebook&ncf_source=friendly_url" class="btn-header">Sign up online</a>
+            <div class="language-selector">
+                <button onclick="setLanguage('ua')">UA</button>
+                <button onclick="setLanguage('ru')">RU</button>
+                <button onclick="setLanguage('en')">EN</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      
+      <img src="./images/slide1.jpg" style="width:100%">
+      <div class="text">
+        <h2>Body Control</h2>
+        <p>BodyControl Massage. Comprehensive program to reduce body volume and improve contours through 4 key blocks</p>
+        <a href="https://www.massagebook.com/business/24086155/select-product/services/?src=massagebook&ncf_source=friendly_url" class="slider-button">Sign up online</a>
+      </div>
+    </div>
+  
+    <div class="mySlides fade">
+     
+      <img src="./images/slide2.jpeg" style="width:100%">
+      <div class="text">
+        <h2>Medical massage</h2>
+        <p>A therapeutic massage designed to address chronic pain and specific medical conditions.</p>
+        <a href="https://www.massagebook.com/business/24086155/select-product/services/?src=massagebook&ncf_source=friendly_url" class="slider-button">Sign up online</a>
+      </div>
+    </div>
+  
+    <div class="mySlides fade">
+      
+      <img src="./images/slide3.jpeg" style="width:100%">
+      <div class="text">
+        <h2>Manual Lymphatic Drainage (MLD)</h2>
+        <p>Lymphatic drainage massage is a specialized procedure aimed at stimulating the lymphatic system of the body. </p>
+        <a href="https://www.massagebook.com/business/24086155/select-product/services/?src=massagebook&ncf_source=friendly_url" class="slider-button">Sign up online</a>
+      </div>
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+
+  <section class="about-us">
+    <h2 class="about-title">Save Body– Guiding you to the world of body care</h2>
+  
+    <p class="about-description">My goal as the founder of 'Save Body' is to create a unique space for the complete
+      restoration of the body and soul. We strive to provide an exceptional massage experience, embodying care and
+      professionalism in every touch. My mission is to inspire people to take care of their well-being, inviting them on
+      an exciting journey to harmony and relaxation. Join 'Save Body,' where each visit becomes self-care. Schedule an
+      appointment today and open the doors to a new level of physical and emotional well-being!</p><br>
+  
+  
+    <div class="cards-container">
+      <!-- Карточка 1 -->
+      <div class="card">
+        <img src="./images/photo_2025-01-10_20-24-00.jpg" alt="Фото 1">
+        <p>Описание для второй карточки. Здесь можно добавить дополнительную информацию.</p>
+      </div>
+  
+      <!-- Карточка 2 -->
+      <div class="card">
+        <img src="./images/page-2.jpeg" alt="Фото 2">
+  
+        <p>Описание для второй карточки. Здесь можно добавить дополнительную информацию.</p>
+      </div>
+  
+      <!-- Карточка 3 -->
+      <div class="card">
+        <img src="./images/page-3.jpeg" alt="Фото 3">
+  
+  
+        <p>Описание для третьей карточки. Третий блок с информацией о вашей команде или проектах.</p>
+  
+      </div>
+    </div>
+  </section>
+
+  <section class="spa-program">
+    <h2 class="spa-title">Popular Services</h2>
+    <p class="spa-description">the most popular spa programs in our salon</p>
+  
+    <div class="program-cards-container">
+      <!-- Карточка 1 -->
+      <div class="program-card">
+        <img src="./images/page-1.jpeg" alt="Спа программа 1">
+        <div class="program-text">
+          <h3>Body Control</h3>
+          <p>BodyControl Massage A comprehensive program to reduce body volume and improve contours through 4 key blocks: Dynamic Lymphatic Drainage: Stimulates lymph flow and reduces swelling. Lipolytic Massage: Targets fat deposits and improves skin elasticity. Anti-Cellulite Exercises: Tones problem areas and enhances results. Modeling Block: Shapes and sculpts the body. Recommended: 8-12 sessions for noticeable results.</p>
+          <table class="price-table">
+            <thead>
+              <tr>
+                <th>Body Control</th>
+                <th>90 min</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Price</td>
+                <td>130 $</td>
+              </tr>
+              
+            </tbody>
+          </table>
+          <div class="buttons">
+            <a href="https://www.massagebook.com/business/24086155/booking/select-staff?src=massagebook&ncf_source=friendly_url" class="btn book">Book now</a>
+            <a href="#more" class="btn more">Read more</a>
+        </div>
+        </div>
+      </div>
+  
+      <!-- Карточка 2 -->
+      <div class="program-card">
+        <img src="./images/page-2.jpeg" alt="Спа программа 2">
+        <div class="program-text">
+          <h3>Manual Lymphatic Drainage (MLD)</h3>
+          <p>Lymphatic drainage massage is a specialized procedure aimed at stimulating the lymphatic system of the body. During the massage, gentle and rhythmic movements are applied in the direction of lymph flow to improve the drainage of excess fluid and toxins, reduce swelling, and enhance overall skin tone. This procedure helps stimulate the immune system, improve metabolism, and contribute to overall wellness.</p>
+          <table class="price-table">
+            <thead>
+              <tr>
+                <th>Manual Lymphatic</th>
+                <th>60 min</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Price</td>
+                <td>90 $</td>
+              </tr>
+             
+            </tbody>
+           
+          </table>
+          <div class="buttons">
+            <a href="https://www.massagebook.com/business/24086155/booking/select-staff?src=massagebook&ncf_source=friendly_url" class="btn book">Book now</a>
+            <a href="#more" class="btn more">Read more</a>
+        </div>
+        </div>
+      </div>
+  
+      <!-- Карточка 3 -->
+      <div class="program-card">
+        <img src="./images/page-3.jpeg" alt="Спа программа 3">
+        <div class="program-text">
+          <h3>Medical massage</h3>
+          <p>Medical Massage A therapeutic massage designed to address chronic pain and specific medical conditions. It may help with: Chronic back pain Frozen shoulder Migraines or tension headaches Sciatica or nerve pain Neck injuries or whiplash Post-injury recovery Carpal tunnel syndrome Arthritis or joint pain Each session is tailored to reduce pain, improve mobility, and enhance well-being.</p>
+          <table class="price-table">
+            <thead>
+              <tr>
+                <th>Medical massage</th>
+                <th>60 min</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Price</td>
+                <td>90 $</td>
+              </tr>
+             
+            </tbody>
+           
+          </table>
+          <div class="buttons">
+            <a href="https://www.massagebook.com/business/24086155/booking/select-staff?src=massagebook&ncf_source=friendly_url" class="btn book">Book now</a>
+            <a href="#more" class="btn more">Read more</a>
+        </div>
+        </div>
+      </div>
+       <!-- Карточка 4 -->
+       <div class="program-card">
+        <img src="./images/page-3.jpeg" alt="Спа программа 3">
+        <div class="program-text">
+          <h3>Swedish Massage</h3>
+          <p>Massage oil or cream is used with smooth, gliding strokes. Swedish massage uses firm but gentle pressure to promote relaxation, ease muscle tension and create other health benefits. It is a classic massage that will ease your stress and allow you to slip into a calm state of relaxation.</p>
+          <table class="price-table">
+            <thead>
+              <tr>
+                <th>Swedish Massage</th>
+                <th>30 min</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Price</td>
+                <td>54 $</td>
+              </tr>
+             
+            </tbody>
+           
+          </table>
+          <div class="buttons">
+            <a href="https://www.massagebook.com/business/24086155/booking/select-staff?src=massagebook&ncf_source=friendly_url" class="btn book">Book now</a>
+            <a href="#more" class="btn more">Read more</a>
+        </div>
+        </div>
+      </div>
+       <!-- Карточка 5 -->
+       <div class="program-card">
+        <img src="./images/page-3.jpeg" alt="Спа программа 3">
+        <div class="program-text">
+          <h3>Deep Tissue Massage</h3>
+          <p>Deep Tissue Massage This therapeutic massage targets the deeper layers of muscles and connective tissues to relieve chronic pain and tension. Using slow, firm pressure and specialized techniques, it focuses on areas of stiffness caused by stress, overuse, or injury. Ideal for: Chronic muscle tension Postural imbalances Recovery from physical activity or injury Pain in areas like the neck, back, or shoulders Duration: 60 or 90 minutes.</p>
+          <table class="price-table">
+            <thead>
+              <tr>
+                <th>Deep Tissue Massage</th>
+                <th>60 min</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Price</td>
+                <td>90 $</td>
+              </tr>
+             
+            </tbody>
+           
+          </table>
+          <div class="buttons">
+            <a href="https://www.massagebook.com/business/24086155/booking/select-staff?src=massagebook&ncf_source=friendly_url" class="btn book">Book now</a>
+            <a href="#more" class="btn more">Read more</a>
+        </div>
+        </div>
+      </div>
+       <!-- Карточка 6 -->
+       <div class="program-card">
+        <img src="./images/page-3.jpeg" alt="Спа программа 3">
+        <div class="program-text">
+          <h3>Prenatal Massage</h3>
+          <p>Prenatal Massage A soothing therapy designed for the unique needs of expecting mothers. It helps reduce back and hip pain, ease swelling in the legs, and relieve tension in the shoulders and neck. Prenatal massage improves circulation, promotes relaxation, and supports better sleep. Duration: 60 minutes for general relief or 90 minutes for a more detailed, full-body session. Safe and tailored to every stage of pregnancy. The massage is performed in a side-lying position for maximum comfort and safety.</p>
+          <table class="price-table">
+            <thead>
+              <tr>
+                <th>Prenatal Massage</th>
+                <th>60 min</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Price</td>
+                <td>90 $</td>
+              </tr>
+             
+            </tbody>
+           
+          </table>
+          <div class="buttons">
+            <a href="https://www.massagebook.com/business/24086155/booking/select-staff?src=massagebook&ncf_source=friendly_url" class="btn book">Book now</a>
+            <a href="#more" class="btn more">Read more</a>
+        </div>
+        </div>
+      </div>
+
+
+      
+    </div>
+ </section>
+ 
+  <section class="services-description">
+    <a href="#services" class="services-button">
+      <h2>All our services</h2>
+      
+    </a>
+  </section>
+
+  
+  <section class="section-certificates" id="certificates">
+    <div class="container-certificates">
+        <div class="slider-container">
+            <div class="slider" id="slider">
+                <img src="./images/page-1.jpeg" alt="Фото 1">
+                <img src="./images/page-2.jpeg" alt="Фото 2">
+                <img src="./images/page-3.jpeg" alt="Фото 3">
+            </div>
+            <button class="arrow arrow-left" id="prev">&#8249;</button>
+            <button class="arrow arrow-right" id="next">&#8250;</button>
+        </div>
+        <div class="text-container">
+            <h1 class="title-certificates">Large selection of gift certificates</h1>
+            <p class="text-certificates">Сертифікат на відвідування нашого СПА-салону стане чудовим подарунком для колеги, подруги чи другої половинки. А різноманіття СПА-програм порадує навіть найвибагливішого і примхливого гостя.</p>
+            <p class="text-certificates">Можлива доставка сертифіката по Кривому Розі або по Україні.</p>
+            <p class="text-certificates" >Електронний сертифікат надішлемо на електронну пошту або viber.</p>
+            
+              <a href="https://www.massagebook.com/business/24086155/select-product/services/?src=massagebook&ncf_source=friendly_url" class="slider-button">Sign up online</a>
+              </div>
+    </div>
+</section>
+<section class="projcard">
+  <div class="cards-container">
+    <!-- Карточка 1 -->
+    <div class="card-projcard">
+      <img src="./images/2025-01-08_131130.jpg" style="width: 100%;" alt="Фото 1">
+      
+    </div>
+
+    <!-- Карточка 2 -->
+    <div class="card-projcard">
+      <img src="./images/2025-01-08_125745 (2).jpg" style="width: 100%;" height="100%"  alt="Фото 2">
+
+     
+    </div>
+
+    <!-- Карточка 3 -->
+    <div class="card-projcard">
+      <img src="./images/_Full page photo_page-0001.jpg"  style="width: 100%;" alt="Фото 3">
+
+
+     
+
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<section class="comments">
+  <script src="https://static.elfsight.com/platform/platform.js" async></script>
+<div class="elfsight-app-6854e77a-b109-436b-b3f6-687b63d29b07" data-elfsight-app-lazy></div>
+</section>
+
+
+
+
+<section id="contact">
+  <h2>CONTACT US</h2>
+
+  <!-- Контейнер для адреса и формы -->
+  <div class="contact-container">
+    <!-- Адрес с картой -->
+   
+
+    <!-- Форма для отправки -->
+    <div class="contact-form">
+      <h3>Write to us:</h3>
+      <form action="/send-message" method="POST">
+        <label for="name">Your name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Your message:Enter Email" name="email" required>
+        <label for="message">Your message:</label>
+        <textarea id="message" name="message" required></textarea>
+        
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Социальные сети -->
+  <div class="social-links">
+    <a href="https://www.facebook.com/Vkhomutets" class="facebook"><i class="fa fa-facebook"></i></a>
+    <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+    <a href="#" class="google"><i class="fa fa-google"></i></a>
+    <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+    <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
+    <a  href="https://www.instagram.com/save_body_chicago/"><i class="fa fa-instagram"></i></a>
+  </div>
+
+  <!-- Контактная информация -->
+  <div>
+    <h3>Contact information:</h3>
+    <p>Slavik Khomutets</p>
+    <p> +1 352-910-0628</p>
+  </div>
+  <div class="address">
+    <h3>Address:</h3>
+    <p>500 S Bartlett Rd, Streamwood, IL 60107, Сполучені Штати</p>
+    
+    <!-- Встроенная карта Google -->
+    <div class="map-container">
+      <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3048.4884609280156!2d-88.1836931!3d42.0230758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8332fb3fd7c3f129%3A0x18cd8966a632e065!2sMassage%20%26%20Spa%20Save%20Body!5e0!3m2!1sen!2sus!4v1696608290123!5m2!1sen!2sus" 
+          width="100%" 
+          height="300" 
+          style="border:0;" 
+          allowfullscreen="" 
+          loading="lazy">
+      </iframe>
+    
+    
+  </div>
+</section>
+
+<footer id="footer">
+  <div class="logo"><img src="./images/logo_transparent.png" alt="AURA Spa Salon Logo"></div>
+  <button class="burger-menu" aria-label="Открыть меню">
+    <span></span>
+    <span></span>
+    <span></span>
+</button>
+  <nav class="navbar">
+      <a href="./about/index.html">About the salon</a>
+      <a href="./servicer/index.html">Services</a>
+      <a href="#certificates">Certifications</a>
+      <a href="#price">Price</a>
+      <a href="#blog">Blog</a>
+      <a href="#contact">Contacts</a>
+      
+      <div class="social-links">
+        <a href="https://www.facebook.com/Vkhomutets" class="facebook"><i class="fa fa-facebook"></i></a>
+        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+        <a href="#" class="google"><i class="fa fa-google"></i></a>
+        <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+        <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
+        <a  href="https://www.instagram.com/save_body_chicago/"><i class="fa fa-instagram"></i></a>
+      </div>
+      <a href="https://www.massagebook.com/business/24086155/select-product/services/?src=massagebook&ncf_source=friendly_url" class="btn-header">Sign up online</a>
+      <div class="language-selector">
+          <button onclick="setLanguage('ua')">UA</button>
+          <button onclick="setLanguage('ru')">RU</button>
+          <button onclick="setLanguage('en')">EN</button>
+      </div>
+  </nav>
+</footer>
+
+
+
+
+  
+  
+  
+  
+  
+  <!-- The dots/circles -->
+  
+    <script src="./script.js"></script>
+</body>
+</html>
